@@ -93,7 +93,7 @@ document.getElementById('patientForm').addEventListener('submit', function(event
         }]
     },
     
-    // Paciente (deberías obtener esta referencia del Patient existente)
+    // Paciente (En teoría, se debería obtener esta referencia del Patient existente)
     subject: {
         reference: "Patient/12345",  // ID del paciente en el sistema
         display: "Nombre del Paciente"  // Nombre para mostrar
