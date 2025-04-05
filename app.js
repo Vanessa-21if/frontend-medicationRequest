@@ -61,7 +61,7 @@ document.getElementById('patientForm').addEventListener('submit', function(event
     };
 
     // Enviar los datos de Patient usando Fetch API
-    fetch('https://hl7-fhir-ehr-vane.onrender.com/patient', {
+    fetch('https://backend-medication-request.onrender.com/medicationRequest', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
